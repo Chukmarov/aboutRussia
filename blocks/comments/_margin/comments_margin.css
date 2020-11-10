@@ -1,0 +1,46 @@
+.comments_margin{
+    margin: 51px 0px 51px;
+}
+
+@media (min-width : 1439px) {
+    .comments_margin{
+                      
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .comments_margin{
+ 
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .comments_margin{
+
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .comments_margin{
+
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .comments_margin{
+        margin: 32px 0px 32px;
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .comments_margin{
+        margin: 32px 0px 32px;   
+    }
+}
+
+@media (max-width : 319px) {
+    .comments_margin{
+        margin: 32px 0px 32px;
+        
+    }
+}   

@@ -1,0 +1,47 @@
+@keyframes beating {
+    from{
+        transform: scale(0.8);
+    }
+
+    to{
+        transform: scale(1.0);
+    }
+}
+
+.video-block__play-button { 
+    animation: beating 1.5s linear infinite alternate;
+    transition: opacity .5s ease;
+    position: relative;
+    z-index: 2;
+    width: 41px;
+    margin: 30px 0 0 30px;
+}
+
+.video-block__play-button:hover{
+    opacity: .5;
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .video-block__play-button{
+    margin: 24px 0 0 24px;
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .video-block__play-button{
+    margin: 24px 0 0 24px;
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .video-block__play-button{
+    margin: 16px 0 0 16px;
+    }
+}
+
+@media (max-width : 319px) {
+    .video-block__play-button{
+    margin: 16px 0 0 16px;
+    }
+}   
+

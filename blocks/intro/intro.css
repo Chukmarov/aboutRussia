@@ -1,0 +1,67 @@
+@import url("__blockquote-block/intro__blockquote-block.css");
+@import url("__blockquote/intro__blockquote.css");
+@import url("__cite-item/intro__cite-item.css");
+@import url("__cite-list/intro__list.css");
+@import url("__list-item/intro__list-item.css");
+@import url("__list/intro__list.css");
+@import url("__title/intro__title.css");
+@import url("__span/intro__span.css");
+@import url("__cite/Intro__cite.css");
+@import url("__subtitle/intro__subtitle.css");
+@import url("_margin/intro_margin.css");
+
+.intro { 
+    display: flex;
+    flex-direction: column;
+    
+ 
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 984px;
+}
+
+ @media (min-width : 1439px) {
+    .intro{
+        align-self: flex-start;
+
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .intro{
+        align-self: flex-start;
+
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .intro{
+        align-self: flex-start;
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .intro{
+        align-self: flex-start;
+    }
+}
+
+@media (min-width : 375px) and (max-width : 767px) {
+    .intro{
+        align-self: flex-start;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 375px) {
+    .intro{
+
+        align-self: flex-start;
+    }
+}
+
+@media (max-width : 320px) {
+    .intro{
+
+        align-self: flex-start;
+    }
+}   
+

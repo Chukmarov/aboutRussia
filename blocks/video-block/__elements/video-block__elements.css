@@ -1,0 +1,13 @@
+.video-block__elements{
+    z-index: 2;
+    position: relative;
+
+    padding: 30px;
+
+    width: 523px;
+    height: 263px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+.comments__card{
+    display: flex;
+    flex-direction: column;
+    }
+
+@media (min-width : 1439px) {
+    .comments__card{
+                      
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .comments__card{
+ 
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .comments__card{
+
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .comments__card{
+    align-items: center;
+    }
+
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .comments__card{
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .comments__card{
+        align-items: center;  
+    }
+}
+
+@media (max-width : 319px) {
+    .comments__card{
+        align-items: center;
+        
+    }
+}   

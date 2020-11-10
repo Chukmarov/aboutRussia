@@ -1,0 +1,41 @@
+@media (min-width : 1439px) {
+    .video-block_kamchatka{
+        justify-self: end;
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .video-block_kamchatka{
+        justify-self: end;
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .video-block_kamchatka{
+        justify-self: end;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .video-block_kamchatka{
+        justify-self: end;
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .video-block_kamchatka{
+
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .video-block_kamchatka{
+
+    }
+}
+
+@media (max-width : 319px) {
+    .video-block_kamchatka{
+
+    }
+}   

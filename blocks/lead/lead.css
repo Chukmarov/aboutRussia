@@ -1,0 +1,76 @@
+@import url(../lead/__picture/lead__picture.css);
+@import url(../lead/__picturetitle/lead__picturetitle.css);
+@import url(__title/lead__title.css);
+@import url(__subtitle/lead__subtitle.css);
+@import url(_margin/lead_margin.css);
+
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    font-family: 'Inter', Arial, sans-serif;
+
+ }
+
+ @media (min-width : 1440px) {
+    .lead{
+        max-width: 985px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width : 1280px) and (max-width : 1440px) {
+    .lead{
+        max-width: 985px;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+}
+
+@media (min-width : 1024px) and (max-width : 1280px) {
+    .lead{
+        max-width: 928px;
+        width: 100%;
+        box-sizing: border-box;
+
+
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+    .lead{
+        max-width: 928px;
+        box-sizing: border-box;
+        width: calc(100vw - (100vw - 100%));
+
+    }
+}
+
+@media (min-width : 375px) and (max-width : 768px) {
+    .lead{
+        
+        box-sizing: border-box;
+        width: calc(100vw - (100vw - 100%));
+
+    }
+}
+
+@media (min-width : 320px) and (max-width : 375px) {
+    .lead{
+        width: 100%;
+        box-sizing: border-box;
+        width: calc(100vw - (100vw - 100%));
+
+    }
+}
+
+@media (max-width : 320px) {
+    .lead{
+        width: calc(100vw - (100vw - 100%));
+        box-sizing: border-box;
+
+    }
+}   

@@ -1,0 +1,37 @@
+.video-block__list { 
+    z-index: 2;
+    position: relative;
+
+    list-style: none;
+    margin: 0 0 30px 30px;
+    padding: 0px;
+    max-width: 322px;
+    box-sizing: border-box;
+}
+
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .video-block__list{
+    margin: 0 0 24px 24px;
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .video-block__list{
+    margin: 0 0 24px 24px;
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .video-block__list{
+    margin: 0 0 16px 16px;
+    }
+}
+
+@media (max-width : 319px) {
+    .video-block__list{
+    margin: 0 0 16px 16px;
+        
+    }
+}   
+

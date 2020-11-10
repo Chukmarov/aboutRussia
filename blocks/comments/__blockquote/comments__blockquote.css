@@ -1,0 +1,61 @@
+.comments__blockquote {
+    margin: 21px 0px 12px;
+    text-decoration: none;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+
+    color: #FFFFFF;
+ }
+
+ @media (min-width : 1439px) {
+    .comments__blockquote{
+                      
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .comments__blockquote{
+ 
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .comments__blockquote{
+
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .comments__blockquote{
+        font-size: 1rem;
+        line-height: 1.4375rem;
+        order: 3;
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .comments__blockquote{
+        font-size: 1rem;
+        line-height: 1.4375rem;
+        order: 3;
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .comments__blockquote{
+        font-size: 1rem;
+        line-height: 1.4375rem;    
+        order: 3;
+    }
+}
+
+@media (max-width : 319px) {
+    .comments__blockquote{
+        font-size: 1rem;
+        line-height: 1.4375rem;
+        order: 3;
+    }
+}   

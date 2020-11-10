@@ -1,0 +1,29 @@
+@import url(__container/additional__container.css);
+@import url(__color-lens/additional__color-lens.css);
+@import url(__image/additional__image.css);
+@import url(__text-block/additional__text-block.css);
+@import url(__text-header/additional__text-header.css);
+@import url(__text/additional__text.css);
+@import url(__card/additional__card.css);
+@import url(_margin/additional_margin.css);
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 1184px;
+    font-family: 'Inter', Arial, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+

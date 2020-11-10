@@ -1,0 +1,70 @@
+
+.section-title_small{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+
+    }
+
+    @media (min-width : 1439px) {
+        .section-title_small{
+            padding-left: 48px;
+            padding-right: 48px;                      
+        }
+    }
+    
+    @media (min-width : 1279px) and (max-width : 1439px) {
+        .section-title_small{
+            padding-left: 48px;
+            padding-right: 48px;     
+        }
+    }
+    
+    @media (min-width : 1023px) and (max-width : 1279px) {
+        .section-title_small{
+            padding-left: 48px;
+            padding-right: 48px;
+        }
+    }
+    
+    @media (min-width : 767px) and (max-width : 1023px) {
+        .section-title_small{
+            font-size: 42px;
+            line-height: 46px;
+
+            padding-left: 24px;
+            padding-right: 24px; 
+        }
+    }
+    
+    @media (min-width : 374px) and (max-width : 767px) {
+        .section-title_small{
+            font-size: 32px;
+            line-height: 35px;
+
+            padding-left: 16px;
+            padding-right: 16px;  
+        }
+    }
+    
+    @media (min-width : 319px) and (max-width : 374px) {
+        .section-title_small{
+            font-size: 32px;
+            line-height: 35px;
+
+            padding-left: 16px;
+            padding-right: 16px;    
+        }
+    }
+    
+    @media (max-width : 319px) {
+        .section-title_small{
+            font-size: 32px;
+            line-height: 35px;
+
+            padding-left: 16px;
+            padding-right: 16px;            
+        }
+    }   
+    

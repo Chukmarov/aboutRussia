@@ -1,0 +1,15 @@
+@import url("__languages-ancor/header__languages-ancor.css");
+@import url("__logo/header__logo.css");
+@import url("__languages/header__languages.css");
+@import url("_padding/header_padding.css");
+@import url("__languages-ancor/header__languages-ancor_active/header__languages-ancor_active.css");
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, sans-serif;
+    width: 100%;
+    max-width: 1184px;
+    min-width: 288px;
+}

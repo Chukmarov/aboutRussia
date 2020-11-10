@@ -1,0 +1,6 @@
+.video-block__ancor_observatory{ 
+    background-image: url("../../../../images/observatory.jpg");
+    background-size: 100%;
+    border-radius: 6px;
+    background-repeat: round;
+}

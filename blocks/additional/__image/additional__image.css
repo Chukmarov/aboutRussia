@@ -1,0 +1,11 @@
+.additional__image {
+   position: absolute;
+   z-index: 1;
+   top: 0px;
+   left: 0px;
+   
+   width: 284px;
+   height: 330px;
+
+   border-radius: 6px;
+ }

@@ -1,0 +1,63 @@
+@namespace svg url(http://www.w3.org/2000/svg);
+
+.header__logo{
+    fill: #FFFFFF;
+    background-size: cover;
+}
+
+@media (min-width : 1439px) {
+    .header__logo{
+        width: 176.58px;
+        height: 52px;
+        padding-left: 48px;                        
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .header__logo{
+        width: 176.58px;
+        height: 52px;
+        padding-left: 48px;  
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .header__logo{
+        width: 176.58px;
+        height: 52px;
+        padding-left: 48px; 
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .header__logo{
+        width: 176.58px;
+        height: 52px;
+        padding-left: 24px; 
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .header__logo{
+        width: 142px;
+        height: 42px;
+        padding-left: 16px; 
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .header__logo{
+        width: 142px;
+        height: 42px;
+        padding-left: 16px; 
+    }
+}
+
+@media (max-width : 319px) {
+    .header__logo{
+        width: 142px;
+        height: 42px;
+        padding-left: 16px;
+    }
+}   
+                      

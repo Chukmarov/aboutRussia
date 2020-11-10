@@ -1,0 +1,79 @@
+ 
+@media (min-width : 1439px) {
+    .intro__blockquote-block {
+     
+        box-sizing: border-box;
+        max-width: 683px;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .intro__blockquote-block {
+    
+        max-width: 683px;
+        box-sizing: border-box;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .intro__blockquote-block {
+    
+        max-width: 692px;
+        box-sizing: border-box;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .intro__blockquote-block {
+    
+        max-width: 719px;
+        box-sizing: border-box;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin-bottom: 24px;
+
+         }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .intro__blockquote-block {
+    
+        box-sizing: border-box;
+        font-size: 1rem;
+        line-height: 1.6875rem;
+        margin-bottom: 32px;
+
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .intro__blockquote-block {
+    
+        box-sizing: border-box;
+        font-size: 1rem;
+        line-height: 1.6875rem;
+        margin-bottom: 32px;
+
+    }
+}
+
+@media (max-width : 319px) {
+    .intro__blockquote-block {
+        min-width: 319px;
+        box-sizing: border-box;
+        font-size: 1rem;
+        line-height: 1.6875rem;
+        margin-bottom: 32px;
+
+    }
+}   
+

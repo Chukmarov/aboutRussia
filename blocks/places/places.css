@@ -1,0 +1,55 @@
+@import url("_margin/places_margin.css");
+
+.places{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+
+@media (min-width : 1439px) {
+        .places{
+        padding: 0 48px 0;
+        max-width: 984px;                         
+        }
+    }
+    
+    @media (min-width : 1279px) and (max-width : 1439px) {
+        .places{
+        padding: 0 48px 0;
+        max-width: 984px;
+        }
+    }
+    
+    @media (min-width : 1023px) and (max-width : 1279px) {
+        .places{
+        padding: 0 48px 0;
+        }
+    }
+    
+    @media (min-width : 767px) and (max-width : 1023px) {
+        .places{
+        padding: 0 24px 0;
+    
+        }
+    }
+    
+    @media (min-width : 374px) and (max-width : 767px) {
+        .places{
+    
+        }
+    }
+    
+    @media (min-width : 319px) and (max-width : 374px) {
+        .places{
+        
+        }
+    }
+    
+    @media (max-width : 319px) {
+        .places{
+    
+            
+        }
+    }   
+    

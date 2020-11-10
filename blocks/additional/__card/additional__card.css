@@ -1,0 +1,10 @@
+.additional__card{
+    width: 284px;
+    height: 330px;
+    position: relative;
+    transition: opacity .5s ease;
+ }
+
+.additional__card:hover{
+    opacity: .5;
+}

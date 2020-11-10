@@ -1,0 +1,66 @@
+@import url("__grid-container/comments__grid-container.css");
+@import url("__blockquote/comments__blockquote.css");
+@import url("__cite/comments__cite.css");
+@import url("__photo/comments__photo.css");
+@import url("__card/comments__card.css");
+@import url("_margin/comments_margin.css");
+
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1184px;
+    min-width: 288px;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (min-width : 1439px) {
+    .comments{
+        padding: 0 48px 0;                      
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .comments{
+        padding: 0 48px 0; 
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .comments{
+        padding: 0 48px 0;
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .comments{
+        padding: 0 24px 0;
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .comments{
+        padding: 0 16px 0;
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .comments{
+        padding: 0 16px 0;    
+    }
+}
+
+@media (max-width : 319px) {
+    .comments{
+        padding: 0 16px 0;
+        
+    }
+}   
+
+
+ 

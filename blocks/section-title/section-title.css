@@ -1,0 +1,56 @@
+@import url("_large/section-title_large.css");
+@import url("_small/section-title_small.css");
+
+.section-title{
+    margin-top: 0px;
+    
+    max-width: 800px;
+    font-family: 'Inter', Arial, sans-serif;
+    margin-bottom: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (min-width : 1439px) {
+    .section-title{
+                 
+    }
+}
+
+@media (min-width : 1279px) and (max-width : 1439px) {
+    .section-title{
+ 
+    }
+}
+
+@media (min-width : 1023px) and (max-width : 1279px) {
+    .section-title{
+
+    }
+}
+
+@media (min-width : 767px) and (max-width : 1023px) {
+    .section-title{
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width : 374px) and (max-width : 767px) {
+    .section-title{
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width : 319px) and (max-width : 374px) {
+    .section-title{
+        margin-bottom: 16px;    
+    }
+}
+
+@media (max-width : 319px) {
+    .section-title{
+        margin-bottom: 16px;        
+    }
+}   
+
+
